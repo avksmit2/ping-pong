@@ -10,24 +10,19 @@ This website receives a number from a user and returns numbers 1 through the num
 
 Specifications
 
-  <!-- 1. convert the input to an integer
-    * input example: "5"
-    * output example: 5 -->
+
   1. make sure the user is putting in a number
     * input example: "a"
     * output example: "please enter a positive integer"
   1. display the result to the user
     * input example: 5
     * output example: 5
-  <!-- 3. push the received number into an array
+  3. push the received number into an array
     * input example: 5
-    * output example: [5] -->
-  <!-- 4. append numbers 1 through the inputted number into the array
+    * output example: [5]
+  4. push numbers 1 through the inputted number into the array
     * input example: 5
-    * output example: [1, 2, 3, 4, 5] -->
-  2. loop through and append numbers 1 through the inputted number
-    * input example: 5
-    * output example: 12345
+    * output example: [1, 2, 3, 4, 5]
   3. change all numbers divisible by 3 to "ping"
     * input example: 5
     * output example: 12"ping"45
@@ -37,6 +32,13 @@ Specifications
   5. change all numbers divisible by 15 to "ping-pong"
     * input example: 15
     * output example: 1234567891011121314"ping-pong"
+  6. display result as a list
+    * input example: 5
+    * output example: * pong
+                      * 4
+                      * ping
+                      * 2
+                      * 1
 
 
 Setup/Installation Requirements
