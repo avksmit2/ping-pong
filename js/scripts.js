@@ -47,8 +47,6 @@ $(document).ready(function() {
       $("ul#numberList").html(result.join(""));
       $("video").fadeIn();
     }
-
-
     event.preventDefault();
   });
 });

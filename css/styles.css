@@ -10,7 +10,7 @@ h1.jumbotron {
 #about {
   padding-left: 3vh;
   margin-top: .5vh;
-  padding-bottom: 100vh;
+  padding-bottom: 200vh;
   background-color: #a3c2b0;
 }
 
@@ -43,4 +43,6 @@ video {
   display: none;
   float: right;
   margin: 5vh;
+  width: 25vh;
+  height: auto;
 }
