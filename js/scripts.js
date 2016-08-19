@@ -33,7 +33,7 @@ var getImage = function(number) {
 //Front-end
 $(document).ready(function() {
   $("form").submit(function(event) {
-    var inputNumber = $("input#number").val();
+    var inputNumber = Math.ceil($("input#number").val());
     var result = []
 
     if (isNaN(inputNumber) || inputNumber < 3) {
