@@ -29,14 +29,15 @@ $(document).ready(function() {
       alert("please enter a positive integer")
     } else {
       result = pongs(Number(inputNumber));
-      console.log(result);
+
+      result = result.map(function(number, i) {
+        return "<li>" + number + "</li>";
+      });
+      $("ul#numberList").html(result.join(""));
+      $("video").show();
     }
 
-    result = result.map(function(number, i) {
-      return "<li>" + number + "</li>";
-    });
-    $("ul#numberList").html(result.join(""));
-    $("video").show();
+
     event.preventDefault();
   });
 });
