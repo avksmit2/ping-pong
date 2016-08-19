@@ -36,7 +36,7 @@ $(document).ready(function() {
       return "<li>" + number + "</li>";
     });
     $("ul#numberList").html(result.join(""));
-
+    $("video").show();
     event.preventDefault();
   });
 });

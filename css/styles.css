@@ -1,0 +1,18 @@
+h1.well {
+  background-color: pink;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+#numberList {
+  color: blue;
+  font-family: fantasy;
+  float: left;
+}
+
+video {
+  display: none;
+  float: right;
+}
