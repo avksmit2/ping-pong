@@ -9,26 +9,40 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1 class = "well well-lg text-center">Let's Play Ping-Pong!</h1>
-      <h1>Here are the rules:</h1>
-      <h3>Enter a positive integer in the space provided and numbers from 1 to your number will be displayed, some "ping-ponging" according to the following:</h3>
-      <ul>
-        <li>numbers divisible by 3 will be "ping"</li>
-        <li>numbers divisible by 5 will be "pong"</li>
-        <li>numbers divisible by 15 will be "ping-pong"</li>
-      </ul>
-      <h2>Enter a number below to try!</h2>
-      <form class="form-inline">
-        <div class="form-group">
-          <input id="number" class="form-control" type="text" placeholder="positive integer">
-          <button class="btn btn-warning" type="submit">Begin!</button>
-        </div>
-        <video autoplay="" src = "http://ak1.picdn.net/shutterstock/videos/2458781/preview/stock-footage-ping-pong-balls-bouncing-across-a-black-background.mp4" type="video/ogg" controls></video>
-        <ul id="numberList">
+    <h1 class="jumbotron text-center">Ping-Pong</h1>
+    <div class="row">
+      <div class="col-xs-3" id="about">
+        <h3>About Ping-Pong</h3>
+        <p class="aboutHeaders">Created by:</p>
+        <p class="whiteNames">Kit Fisto</p>
+        <p class="aboutHeaders">GitHub Username/URL:</p>
+        <p id="username">greensaber</p>
+        <p class="aboutHeaders">Level 2 Test for:</p>
+        <p class="whiteNames">Java</p>
+      </div>
+      <div class="container">
+        <div class="col-xs-9">
+          <h2>Let's play!</h2>
+          <h3>Here are the rules:</h3>
+          <p>Enter a positive integer in the space provided and numbers from 1 to your number will be displayed, some "ping-ponging" according to the following:</p>
+          <ul>
+            <li>numbers divisible by 3 will be "ping"</li>
+            <li>numbers divisible by 5 will be "pong"</li>
+            <li>numbers divisible by 15 will be "ping-pong"</li>
+          </ul>
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="number">Enter a number to try!</label>
+              <input id="number" class="form-control" type="text" placeholder="positive integer">
+              <button class="btn btn-warning" type="submit">Begin!</button>
+            </div>
+            <video autoplay="" src = "http://ak1.picdn.net/shutterstock/videos/2458781/preview/stock-footage-ping-pong-balls-bouncing-across-a-black-background.mp4" type="video/ogg" controls></video>
+            <ul style="list-style-type:none" id="numberList">
 
-        </ul>
-      </form>
+            </ul>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

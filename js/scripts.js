@@ -18,6 +18,17 @@ var getPush = function(inputNumber) {
     return inputNumber;
   }
 }
+var getImage = function(number) {
+  if (number === "ping-pong") {
+    return "<li>" + number + "<img src='img/paddle5.jpeg'></li>";
+  } else if (number === "pong") {
+    return "<li>" + number + "<img src='img/paddle6.jpeg'></li>"
+  } else if (number === "ping") {
+    return "<li>" + number + " <img src='img/paddle3.jpeg'></li>"
+  } else {
+    return number;
+  }
+};
 
 //Front-end
 $(document).ready(function() {
@@ -31,10 +42,10 @@ $(document).ready(function() {
       result = pongs(Number(inputNumber));
 
       result = result.map(function(number, i) {
-        return "<li>" + number + "</li>";
+        return "<li>" + getImage(number) + "</li>";
       });
       $("ul#numberList").html(result.join(""));
-      $("video").show();
+      $("video").fadeIn();
     }
 
 
