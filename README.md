@@ -51,7 +51,7 @@ CSS
 Bootstrap
 JQuery
 
-[Link to GitHub] (avksmit2.github.io/ping-pong)
+[Link to Site] (https://avksmit2.github.io/ping-pong/)
 
 License
 MIT
